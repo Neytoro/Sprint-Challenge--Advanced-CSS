@@ -1,1 +1,23 @@
 // Mixins Here
+
+.hover() {
+
+    color: blue;
+    background: @river-bend;
+
+}
+
+.column-reverse() {
+
+    display: flex;
+    flex-direction: column-reverse;
+
+}
+
+.button(@color, @bg-color: @btn-bg-color, @width) {
+
+    color: @color;
+    width: @width;
+    background: @bg-color;
+
+}

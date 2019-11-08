@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+An adaptive website still uses hardcoded widths. While it can work on multiple devices, it may not work on all. Fully responsive, however, uses responsive units that aid in ensuring the site is responsive across far more devices.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Mobile first means the site is designed to function primarily on mobile devices, thus the base code is focused on smaller screens. Desktop first, however, is the opposite where the base code is centered around larger desktop screens.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+Font-size: 62.5%; on the html tag sets the font-size to 10px. The html tag is the root of all the elements, thus rem will refer to said 10px.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+Preprocessing is merely a different way of writing CSS code in a more organized way that also allows for less code to be written.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+Nesting. Nesting allows for neat code and better collapsing of code. While it doesn't exactly give me trouble, I do find it hard to find places to use parametric mixins. Such is likely due to having done it the old way for so long, but they are certainly amazing to know!
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -126,10 +136,10 @@ In your solution, it is essential that you follow best practices and produce cle
 
 After finishing your required elements, you can push your work further. These goals may or may not be things you have learned in this module but they build on the material you just studied. Time allowing, stretch your limits and see if you can deliver on the following optional goals:
 
-* [ ] Build a page of your choosing from the navigation items. Come up with content and images that fit the theme.
+* [ ] Build a page of your choosing from the navigation items. Come up with content and images that fit the theme. (Done, check the sign in page.)
 
-* [ ] Introduce CSS animations to your site.
+* [ ] Introduce CSS animations to your site. (Done, hover over the space-images.)
 
-* [ ] Create a fixed navigation and add some opacity to the background
+* [ ] Create a fixed navigation and add some opacity to the background. (Done)
 
 * [ ] Create a form that would allow someone to sign up for a Spacewalkers Magazine subscription
